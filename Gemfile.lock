@@ -30,7 +30,11 @@ GEM
     activesupport (3.0.0.rc)
     arel (0.4.0)
       activesupport (>= 3.0.0.beta)
+    bcrypt-ruby (2.1.2)
     builder (2.1.2)
+    devise (1.1.1)
+      bcrypt-ruby (~> 2.1.2)
+      warden (~> 0.10.7)
     erubis (2.6.6)
       abstract (>= 1.0.0)
     i18n (0.4.1)
@@ -39,6 +43,7 @@ GEM
       mime-types
       treetop (>= 1.4.5)
     mime-types (1.16)
+    nifty-generators (0.4.0)
     polyglot (0.3.1)
     rack (1.2.1)
     rack-mount (0.6.9)
@@ -64,10 +69,14 @@ GEM
     treetop (1.4.8)
       polyglot (>= 0.3.1)
     tzinfo (0.3.22)
+    warden (0.10.7)
+      rack (>= 1.0.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  devise
+  nifty-generators
   rails (= 3.0.0.rc)
   sqlite3-ruby

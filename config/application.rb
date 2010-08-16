@@ -38,5 +38,7 @@ module Blog
 
     # Configure sensitive parameters which will be filtered from the log file.
     config.filter_parameters += [:password]
+    config.secret_token = '6a611a82898085e052cae965b5f852db9feb132e26c82c352d9c6da73ea96c8aeef320220ec9e3b0053210cecebed7d9c7d74f7be4515a37b7fcdc297ebba925'
+    
   end
 end
