@@ -30,13 +30,17 @@ GEM
     activesupport (3.0.0.rc)
     arel (0.4.0)
       activesupport (>= 3.0.0.beta)
+    babosa (0.1.1)
     bcrypt-ruby (2.1.2)
     builder (2.1.2)
+    cancan (1.3.2)
     devise (1.1.1)
       bcrypt-ruby (~> 2.1.2)
       warden (~> 0.10.7)
     erubis (2.6.6)
       abstract (>= 1.0.0)
+    friendly_id (3.1.3)
+      babosa (>= 0.1.0)
     i18n (0.4.1)
     mail (2.2.5)
       activesupport (>= 2.3.6)
@@ -76,7 +80,9 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  cancan
   devise
+  friendly_id (~> 3.1)
   nifty-generators
   rails (= 3.0.0.rc)
   sqlite3-ruby

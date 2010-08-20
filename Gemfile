@@ -7,8 +7,11 @@ gem 'rails', '3.0.0.rc'
 
 gem 'sqlite3-ruby', :require => 'sqlite3'
 
-gem 'devise'
+gem "devise"
 gem "nifty-generators"
+gem "cancan"
+# gem "declarative_authorization"
+gem "friendly_id", "~> 3.1"
 
 # Use unicorn as the web server
 # gem 'unicorn'
